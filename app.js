@@ -23,7 +23,7 @@
  var agora = new Date();
  let hora = agora.getHours();
 
- if(hora>18){
+ if(hora>=18){
     document.body.classList.toggle("dark");
  }
 
