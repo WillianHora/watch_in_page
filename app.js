@@ -12,6 +12,7 @@
     seconds.innerHTML = segundos;
      if (minutos < 10) {
        minutes.innerHTML = "0"+minutos;
+       seconds.innerHTML = "0"+segundos;
      }
     
  }, 1001);

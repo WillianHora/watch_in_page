@@ -29,6 +29,7 @@ body {
   font-family: sans-serif;
   
   
+  
 }
 
 #relogio{
@@ -52,3 +53,61 @@ body {
   background-image: url(timesnight.jpg);
 }
 
+
+
+@media only screen and (max-width: 768px) {
+   
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-image:var(--background); 
+  background-size: cover;
+}
+
+
+
+
+
+
+#base {
+  background-color: rgba(2, 2, 2, 0.848);
+  display: flex;
+  align-items: center;
+  height: 180px;
+  width: 300px;
+  justify-content: center;
+  border-radius: 420px;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  
+  
+  
+}
+
+#relogio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 3em;
+  font-family: monospace;
+  
+}
+
+
+.light{
+  background-image: url(timesday.jpg);
+
+  
+}
+
+.dark{
+  background-image: url(timesnight.jpg);
+}
+}
