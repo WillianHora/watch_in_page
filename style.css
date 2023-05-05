@@ -17,7 +17,7 @@ body {
 
 
 #base {
-  background-color: rgba(2, 2, 2, 0.848);
+  background-color: rgba(2, 2, 2, 0.637);
   display: flex;
   align-items: center;
   height: 180px;
@@ -44,13 +44,20 @@ body {
 
 
 .light{
-  background-image: url(timesday.jpg);
+  background-image: url(day.png);
 
   
 }
+.mid{
+  background-image: url(afternoon.png)
+   
 
-.dark{
-  background-image: url(timesnight.jpg);
+
+  }
+
+
+  .dark{
+  background-image: url(night.png);
 }
 
 
@@ -75,7 +82,7 @@ body {
 
 
 #base {
-  background-color: rgba(2, 2, 2, 0.848);
+  background-color:rgba(2, 2, 2, 0.637);
   display: flex;
   align-items: center;
   height: 180px;
@@ -102,12 +109,19 @@ body {
 
 
 .light{
-  background-image: url(timesday.jpg);
-
-  
+  background-image: url(day.png);
 }
 
-.dark{
-  background-image: url(timesnight.jpg);
-}
+
+.mid{
+  background-image: url(afternoon.png)
+   
+
+
+  }
+
+
+  .dark{
+  background-image: url(night.png);
+} 
 }
